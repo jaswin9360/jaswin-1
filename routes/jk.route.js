@@ -1,5 +1,5 @@
 import express from 'express'
-import { indexdelete, indexget, indexpost, indexput } from './controllers/jk.controller';
+import { indexdelete, indexget, indexpost, indexput } from './controllers/jk.controller.js';
 
 const router = express.Router()
 
