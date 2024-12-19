@@ -15,3 +15,11 @@
 7. git commit 
 8. git remote add repo
 9. `git push` 
+
+//Database option
+
+1. SQL - (MySQL, MariaDB, PostgreSQl)
+2. NoSQL - (MongoDB)
+
+jaswinkumar00
+AwdmTJI7hPGZjm5R
