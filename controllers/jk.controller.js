@@ -1,3 +1,4 @@
+import file from "../models/jk.model.js";
 import newfile from "../models/jk.model.js";
 
 export const indexget = async (req,res) =>{
@@ -84,7 +85,7 @@ export const indexdelete = async(req,res) =>{
  
 
     try {
-        await file.deleteone
+        await file.deleteOne({_id: fileid});
        res.json({ message: "file deleted"});
     } catch (error) {
         res.status(500).json({message:error});
